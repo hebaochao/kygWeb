@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<array>
+	<dict>
+		<key>cost</key>
+		<integer>15</integer>
+		<key>name</key>
+		<string>顺丰快递</string>
+		<key>deliveryId</key>
+		<string>1</string>
+	</dict>
+	<dict>
+		<key>cost</key>
+		<integer>12</integer>
+		<key>name</key>
+		<string>申通快递</string>
+		<key>deliveryId</key>
+		<string>2</string>
+	</dict>
+	<dict>
+		<key>cost</key>
+		<integer>10</integer>
+		<key>name</key>
+		<string>圆通快递</string>
+		<key>deliveryId</key>
+		<string>3</string>
+	</dict>
+	<dict>
+		<key>cost</key>
+		<integer>18</integer>
+		<key>name</key>
+		<string>EMS</string>
+		<key>deliveryId</key>
+		<string>4</string>
+	</dict>
+	<dict>
+		<key>cost</key>
+		<integer>0</integer>
+		<key>name</key>
+		<string>自提</string>
+		<key>deliveryId</key>
+		<string>5</string>
+	</dict>
+</array>
+</plist>

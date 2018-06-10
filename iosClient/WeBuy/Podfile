@@ -1,0 +1,8 @@
+platform :ios, '7.0'  
+pod 'AFNetworking', :git => 'https://github.com/AFNetworking/AFNetworking.git'
+pod 'MJExtension', :git => 'https://github.com/CoderMJLee/MJExtension.git'
+pod 'Masonry', :git => 'https://github.com/SnapKit/Masonry.git'
+pod 'MJRefresh', :git => 'https://github.com/CoderMJLee/MJRefresh.git'
+pod 'SDWebImage', :git => 'https://github.com/rs/SDWebImage.git'
+pod 'MBProgressHUD', :git => 'https://github.com/jdg/MBProgressHUD.git'
+pod 'FMDB', :git => 'https://github.com/ccgus/fmdb.git'

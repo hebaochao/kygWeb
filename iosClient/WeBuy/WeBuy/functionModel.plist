@@ -1,0 +1,66 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<array>
+	<dict>
+		<key>imgName</key>
+		<string>home_1</string>
+		<key>title</key>
+		<string>天猫</string>
+	</dict>
+	<dict>
+		<key>imgName</key>
+		<string>home_2</string>
+		<key>title</key>
+		<string>聚划算</string>
+	</dict>
+	<dict>
+		<key>imgName</key>
+		<string>home_3</string>
+		<key>title</key>
+		<string>进口商品</string>
+	</dict>
+	<dict>
+		<key>imgName</key>
+		<string>home_4</string>
+		<key>title</key>
+		<string>购物车</string>
+	</dict>
+	<dict>
+		<key>imgName</key>
+		<string>home_5</string>
+		<key>title</key>
+		<string>外卖</string>
+	</dict>
+	<dict>
+		<key>imgName</key>
+		<string>home_6</string>
+		<key>title</key>
+		<string>手机充值</string>
+	</dict>
+	<dict>
+		<key>imgName</key>
+		<string>home_7</string>
+		<key>title</key>
+		<string>旅游</string>
+	</dict>
+	<dict>
+		<key>imgName</key>
+		<string>home_8</string>
+		<key>title</key>
+		<string>淘金币</string>
+	</dict>
+	<dict>
+		<key>imgName</key>
+		<string>home_9</string>
+		<key>title</key>
+		<string>淘生活</string>
+	</dict>
+	<dict>
+		<key>imgName</key>
+		<string>home_10</string>
+		<key>title</key>
+		<string>分类</string>
+	</dict>
+</array>
+</plist>

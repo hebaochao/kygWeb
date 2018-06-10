@@ -1,0 +1,73 @@
+//
+//  WeBuy-prefix.pch
+//  WeBuy
+//
+//  Created by Alex on 15/10/21.
+//  Copyright (c) 2015年 Alex. All rights reserved.
+//
+
+#ifndef WeBuy_WeBuy_prefix_pch
+#define WeBuy_WeBuy_prefix_pch
+
+// Include any system framework and library headers here that should be included in all compilation units.
+// You will also need to set the Prefix Header build setting of one or more of your targets to reference this file.
+
+//公共头文件
+#import "CategoryWF.h"
+#import "MJExtension.h"
+#import "MBProgressHUD+CZ.h"
+
+
+//自定义日志
+
+//自定义日志
+#ifdef DEBUG
+//#define  WCLog(...) NSLog(__VA_ARGS__)
+#define WBLog(...) NSLog(@"%s\n %@ \n\n",__func__,[NSString stringWithFormat:__VA_ARGS__])
+#else
+
+#endif
+
+#ifdef DEBUG
+//#define  WCLog(...) NSLog(__VA_ARGS__)
+#define WBLogObj(...) NSLog(__VA_ARGS__)
+#else
+
+#endif
+
+
+//稳定版本  集成pod版本
+
+//定义统一的变量
+//// 本地服务器 访问配置常量
+//#define BaseHost  @"http://192.168.1.101:8080/kyg"
+//#define BaseImageHost  @"http://192.168.1.101:8080/kyg/images"
+////网页版首页URL
+//#define HomeUrl @"http://192.168.1.101:8080/kygweb/index.jsp"
+////分享商品URL
+//#define product_url  @"http://192.168.1.101:8080/kygweb/ProductInfoServlert?pro_id="
+
+
+//外网服务器 访问配置常量
+#define BaseHost  @"http://119.247.47.84/kyg"
+#define BaseImageHost  @"http://119.247.47.84/kyg/images"
+//网页版首页URL
+#define HomeUrl @"http://119.247.47.84/kygweb/index.jsp"
+//分享商品URL
+#define product_url  @"http://119.247.47.84/kygweb/ProductInfoServlert?pro_id="
+
+
+
+//微博授权登陆相关常量
+#define weibo_client_id  @"164719287"
+#define weibo_redirect_uri  @"https://www.baidu.com"
+#define weibo_grant_type  @"authorization_code"
+#define weibo_client_secret  @"9ddb7ef6271c6f43c886988ae42bd5b9"
+//QQ授权相关常量
+#define qq_appid  @"1104875411"
+#define qq_key @"Zjctf2pTdiLU9i9Z"
+
+#define BaiduUrl @"http://www.baidu.com"
+
+
+#endif

@@ -1,0 +1,124 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<web-app version="3.0"
+    xmlns="http://java.sun.com/xml/ns/javaee"
+    xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+    xsi:schemaLocation="http://java.sun.com/xml/ns/javaee http://java.sun.com/xml/ns/javaee/web-app_3_0.xsd">
+  <servlet>
+    <servlet-name>HomeServlet</servlet-name>
+    <servlet-class>com.it.servlet.HomeServlet</servlet-class>
+  </servlet>
+  <servlet>
+    <servlet-name>SearchServlet</servlet-name>
+    <servlet-class>com.it.servlet.SearchServlet</servlet-class>
+  </servlet>
+  <servlet>
+    <servlet-name>ProductListServlet</servlet-name>
+    <servlet-class>com.it.servlet.ProductListServlet</servlet-class>
+  </servlet>
+  <servlet>
+    <servlet-name>ProductServlet</servlet-name>
+    <servlet-class>com.it.servlet.ProductServlet</servlet-class>
+  </servlet>
+  <servlet>
+    <servlet-name>CartServlet</servlet-name>
+    <servlet-class>com.it.servlet.CartServlet</servlet-class>
+  </servlet>
+  <servlet>
+    <servlet-name>LoginServlet</servlet-name>
+    <servlet-class>com.it.servlet.LoginServlet</servlet-class>
+  </servlet>
+  <servlet>
+    <servlet-name>RegisterServlet</servlet-name>
+    <servlet-class>com.it.servlet.RegisterServlet</servlet-class>
+  </servlet>
+  <servlet>
+    <servlet-name>CheckUserNameServlet</servlet-name>
+    <servlet-class>com.it.servlet.CheckUserNameServlet</servlet-class>
+  </servlet>
+  <servlet>
+    <servlet-name>UserServlet</servlet-name>
+    <servlet-class>com.it.servlet.UserServlet</servlet-class>
+  </servlet>
+  <servlet>
+    <servlet-name>AddressServlet</servlet-name>
+    <servlet-class>com.it.servlet.AddressServlet</servlet-class>
+  </servlet>
+  <servlet>
+    <servlet-name>OrderServlet</servlet-name>
+    <servlet-class>com.it.servlet.OrderServlet</servlet-class>
+  </servlet>
+  <servlet>
+    <servlet-name>ContactServlet</servlet-name>
+    <servlet-class>com.it.servlet.ContactServlet</servlet-class>
+  </servlet>
+  <servlet>
+    <servlet-name>VersionServlet</servlet-name>
+    <servlet-class>com.it.servlet.VersionServlet</servlet-class>
+  </servlet>
+
+
+
+
+
+
+
+
+
+
+
+
+
+  <servlet-mapping>
+    <servlet-name>HomeServlet</servlet-name>
+    <url-pattern>/HomeServlet</url-pattern>
+  </servlet-mapping>
+  <servlet-mapping>
+    <servlet-name>SearchServlet</servlet-name>
+    <url-pattern>/SearchServlet</url-pattern>
+  </servlet-mapping>
+  <servlet-mapping>
+    <servlet-name>ProductListServlet</servlet-name>
+    <url-pattern>/ProductListServlet</url-pattern>
+  </servlet-mapping>
+  <servlet-mapping>
+    <servlet-name>ProductServlet</servlet-name>
+    <url-pattern>/ProductServlet</url-pattern>
+  </servlet-mapping>
+  <servlet-mapping>
+    <servlet-name>CartServlet</servlet-name>
+    <url-pattern>/CartServlet</url-pattern>
+  </servlet-mapping>
+  <servlet-mapping>
+    <servlet-name>LoginServlet</servlet-name>
+    <url-pattern>/LoginServlet</url-pattern>
+  </servlet-mapping>
+  <servlet-mapping>
+    <servlet-name>RegisterServlet</servlet-name>
+    <url-pattern>/RegisterServlet</url-pattern>
+  </servlet-mapping>
+  <servlet-mapping>
+    <servlet-name>CheckUserNameServlet</servlet-name>
+    <url-pattern>/CheckUserNameServlet</url-pattern>
+  </servlet-mapping>
+  <servlet-mapping>
+    <servlet-name>UserServlet</servlet-name>
+    <url-pattern>/UserServlet</url-pattern>
+  </servlet-mapping>
+  <servlet-mapping>
+    <servlet-name>AddressServlet</servlet-name>
+    <url-pattern>/AddressServlet</url-pattern>
+  </servlet-mapping>
+  <servlet-mapping>
+    <servlet-name>OrderServlet</servlet-name>
+    <url-pattern>/OrderServlet</url-pattern>
+  </servlet-mapping>
+  <servlet-mapping>
+    <servlet-name>ContactServlet</servlet-name>
+    <url-pattern>/ContactServlet</url-pattern>
+  </servlet-mapping>
+  <servlet-mapping>
+    <servlet-name>VersionServlet</servlet-name>
+    <url-pattern>/VersionServlet</url-pattern>
+  </servlet-mapping>
+ 
+</web-app>

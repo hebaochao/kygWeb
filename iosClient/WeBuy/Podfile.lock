@@ -1,0 +1,85 @@
+PODS:
+  - AFNetworking (3.1.0):
+    - AFNetworking/NSURLSession (= 3.1.0)
+    - AFNetworking/Reachability (= 3.1.0)
+    - AFNetworking/Security (= 3.1.0)
+    - AFNetworking/Serialization (= 3.1.0)
+    - AFNetworking/UIKit (= 3.1.0)
+  - AFNetworking/NSURLSession (3.1.0):
+    - AFNetworking/Reachability
+    - AFNetworking/Security
+    - AFNetworking/Serialization
+  - AFNetworking/Reachability (3.1.0)
+  - AFNetworking/Security (3.1.0)
+  - AFNetworking/Serialization (3.1.0)
+  - AFNetworking/UIKit (3.1.0):
+    - AFNetworking/NSURLSession
+  - FMDB (2.6.2):
+    - FMDB/standard (= 2.6.2)
+  - FMDB/standard (2.6.2)
+  - Masonry (1.0.0)
+  - MBProgressHUD (0.9.2)
+  - MJExtension (3.0.10)
+  - MJRefresh (3.1.0)
+  - SDWebImage (3.7.5):
+    - SDWebImage/Core (= 3.7.5)
+  - SDWebImage/Core (3.7.5)
+
+DEPENDENCIES:
+  - AFNetworking (from `https://github.com/AFNetworking/AFNetworking.git`)
+  - FMDB (from `https://github.com/ccgus/fmdb.git`)
+  - Masonry (from `https://github.com/SnapKit/Masonry.git`)
+  - MBProgressHUD (from `https://github.com/jdg/MBProgressHUD.git`)
+  - MJExtension (from `https://github.com/CoderMJLee/MJExtension.git`)
+  - MJRefresh (from `https://github.com/CoderMJLee/MJRefresh.git`)
+  - SDWebImage (from `https://github.com/rs/SDWebImage.git`)
+
+EXTERNAL SOURCES:
+  AFNetworking:
+    :git: https://github.com/AFNetworking/AFNetworking.git
+  FMDB:
+    :git: https://github.com/ccgus/fmdb.git
+  Masonry:
+    :git: https://github.com/SnapKit/Masonry.git
+  MBProgressHUD:
+    :git: https://github.com/jdg/MBProgressHUD.git
+  MJExtension:
+    :git: https://github.com/CoderMJLee/MJExtension.git
+  MJRefresh:
+    :git: https://github.com/CoderMJLee/MJRefresh.git
+  SDWebImage:
+    :git: https://github.com/rs/SDWebImage.git
+
+CHECKOUT OPTIONS:
+  AFNetworking:
+    :commit: b7073e4990b93ccdd1f16a5ebbb5443a193b002d
+    :git: https://github.com/AFNetworking/AFNetworking.git
+  FMDB:
+    :commit: dee075fa208a2ab7248f9e1a9817f8b5bc015709
+    :git: https://github.com/ccgus/fmdb.git
+  Masonry:
+    :commit: dee6d8d5dd1b74e32a6f0f11edfc7a8005256609
+    :git: https://github.com/SnapKit/Masonry.git
+  MBProgressHUD:
+    :commit: 5c3b93fe4ff9542e08e6b3a98d945805131eb55c
+    :git: https://github.com/jdg/MBProgressHUD.git
+  MJExtension:
+    :commit: 92fc69104d69a579a05ee958f119f376a7993f22
+    :git: https://github.com/CoderMJLee/MJExtension.git
+  MJRefresh:
+    :commit: 79d7caf60399fe84a43e6d79f6f90d1d8b0d6013
+    :git: https://github.com/CoderMJLee/MJRefresh.git
+  SDWebImage:
+    :commit: 19041b44c2e393cd15ba596d0e36ef2a6d32a7ab
+    :git: https://github.com/rs/SDWebImage.git
+
+SPEC CHECKSUMS:
+  AFNetworking: 5e0e199f73d8626b11e79750991f5d173d1f8b67
+  FMDB: 849677a6ddd1712411be88127d8872b246b86fb9
+  Masonry: b529bb169217897b6354d4b56b1fada6d475b13d
+  MBProgressHUD: c10206b47acf9e1659bd80a366cc935e35745b9b
+  MJExtension: d86aacb740c87519d20e3cca55b6fa4be6cc7548
+  MJRefresh: 743e6404967d1c2c688472ea3ecfde247d872db4
+  SDWebImage: 69c6303e3348fba97e03f65d65d4fbc26740f461
+
+COCOAPODS: 0.39.0
